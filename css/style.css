@@ -235,7 +235,7 @@
 }
 
 .page-header {
-    background: url(/images1/nhs) top center no-repeat;
+    background: url(..//images1/nhs) top center no-repeat;
     background-size: cover;
     background-position: bottom;
     text-shadow: 0 0 30px rgba(0, 0, 0, .1);
@@ -295,8 +295,6 @@
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
-
-
 /*** Team ***/
 .team-item img {
     position: relative;
@@ -565,3 +563,63 @@
     object-fit: cover;
     object-position: center;
   }
+  /** couple **/
+
+.couple {
+    background: blue;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    margin-top: -50px;
+}
+
+.couple .titlepage {
+    max-width: 667px;
+    width: 100%;
+    float: right;
+    padding-bottom: 0;
+}
+
+.couple .titlepage span {
+    color: #fff;
+    font-size: 25px;
+    line-height: 25px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.couple .titlepage h2 {
+    color: #fff;
+    display: block;
+}
+
+.couple .titlepage p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    color: #fff;
+    padding: 45px 0px;
+}
+
+.whitebg {
+    color: #000000;
+    background: #fff;
+}
+
+.doi {
+    text-align: center;
+}
+
+.doi figure {
+    margin: 0;
+}
+
+.doi figure img {
+    max-width: 100%;
+}
+
+
+/** end couple **/
+
+
+
+
