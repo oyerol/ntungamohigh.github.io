@@ -94,5 +94,12 @@
     });
 
     
-})(jQuery);
+})
+(jQuery);
+
+        let profilepic = document.getElementById("profilepic");
+        let inputfile = document.getElementById("inputFile");
+        inputFile.onchange = function(){
+            profilepic.scr = URL.createObjectURL(imputFile.files[0]);
+        }
 
